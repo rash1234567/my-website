@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+h2 {
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type=text] {
+    width: 50%;
+    border: 3px solid red;
+    height: 30px;
+    padding: 10px 5px;
+    margin: 8px 0;
+}
+
+select {
+    width: 50%;
+    border-radius: 4px;
+    border: none;
+    height: 30px;
+    margin: 8px 0;
+    background-color: lightgrey;
+    
+}
+
+input[type=button] {
+    background-color: green;
+    align-items: center;
+    margin: 8px 0;
+    height: 30px;
+    border: none;
+    color: white;
+    justify-content: center;
+}

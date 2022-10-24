@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="/actionpage.php">
+            <div class="row">
+                <div class="col-1">
+                    <label for="Fname">First name</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" name="firstname" id="Fname" placeholder="your name....">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="lname">Last name</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" name="lastname" id="lname" placeholder="your surname....">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="country">Country</label>
+                </div>
+                <div class="col-2">
+                    <select name="country" id="country">
+                      <option value="Nigeria">Nigeria</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Kenya">Kenya</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="col-2">
+                    <textarea name="subject" id="subject" placeholder="write something...."></textarea>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,88 @@
+.v-navbar {
+    width: 60%;
+    height: 500px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.v-navbar ul {
+   list-style-type: none;
+    width: 20%;
+    height: 150px;
+    margin: 0;
+    background-color: green;
+    border: 1px solid black;
+    padding: 0;
+    position: fixed;
+}
+
+.v-navbar li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;   
+}
+
+.v-navbar li {
+    border-bottom: 1px solid black;
+}
+
+.v-navbar li.about {
+    border-bottom: none;
+}
+
+.v-navbar a:hover {
+    background-color: blue;
+    color: white;
+    font-weight: lighter;
+}
+
+.h-navbar {
+    width: 100%;
+}
+
+.h-navbar li {
+    float: left;
+    list-style-type: none;
+    background-color: lightgray;
+    width: 200px;
+}
+
+.h-navbar li a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.h-navbar a:hover .drop-down:hover .drop-down {
+    background-color: green;
+    color: orange;
+}
+
+.drop-down {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    background-color: beige;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0px 2px 2px 0px;
+    z-index: 1;
+}
+
+.drop-down:hover .dropdown-content {
+  display: block;
+}

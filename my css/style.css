@@ -1,0 +1,258 @@
+body {
+    background-color: rgb(180, 180, 180);
+}
+
+h1 {
+    text-shadow: 2px 2px 5px red;
+    text-transform: uppercase;
+    text-decoration: overline red dotted 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+h2.play {
+    color: red;
+    text-transform: uppercase;
+    text-shadow: 2px 2px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p.lorem {
+    color: white;
+    text-shadow: 2px 2px 4px black ;
+    text-transform: capitalize;
+    letter-spacing: -2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.two {
+    text-align: justify;
+    text-align-last: right;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+}
+
+p.three {
+     line-height: 0.7;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+th {
+    color: white;
+    text-align: left;
+    vertical-align: bottom;
+    height: 70px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+tr {
+    text-align: center;
+    vertical-align: bottom;   
+}
+
+tr:hover {
+    background-color: blueviolet;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+div.static {
+    position: static;
+    border: 3px solid green;
+}
+
+div.relative {
+    position: relative;
+    border: 3px solid green;
+    width: 400px;
+    height: 200px;
+}
+
+div.absolute {
+    position:absolute;
+    top: 80px;
+    right: 0;
+    border: 3px solid green;
+    width: 200px;
+    height: 100px;  
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    right: 0;
+    border: 3px solid green;
+}
+
+.container {
+    position: relative;
+}
+
+img {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    opacity: 0.3;
+}
+
+.text {
+    position: absolute;
+    text-decoration: overline;
+    color: black;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    top: 8px;
+    left: 16px;
+}
+
+.right {
+    position: absolute;
+    text-decoration: overline;
+    color: black;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    top: 8px;
+    right: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    text-decoration: overline;
+    color: black;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    bottom: 8px;
+    left: 16px;
+}
+
+.bottomright {
+    position: absolute;
+    text-decoration: overline;
+    color: black;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    bottom: 0px;
+    right: 0px;
+}
+
+.center {
+    position: absolute;
+    text-decoration: overline;
+    color: black;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.containertwo {
+    position: relative;
+    float: left;
+}
+.imagetwo {
+    position: absolute;
+    clip: rect(0px, 60px, 200px, 0px);
+    opacity: 1;
+}
+
+.black-box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 200px;
+    margin: 30px;
+    width: 50%;
+    overflow-x:scroll;
+    overflow-y: visible;
+}
+
+.gray-box {
+    position: absolute;
+    z-index: 3;
+    border: 2px solid grey;
+    height: 60px;
+    width: 40%;
+    left: 750px;
+    top: 100px;
+    overflow: hidden;
+}
+
+.green-box {
+    position: absolute;
+    z-index: 2;
+    width: 10%;
+    border: 2px solid green;
+    top: -17px;
+    left: 1000px;
+    height: 100px;
+    overflow: auto;
+
+}
+.fati img {
+    width: 20vw;
+    height: 20vh;
+    float:left;
+    opacity: 1;
+    margin-right: 10px;
+}
+
+.clear {
+    position: relative;
+    width: 40%;
+}
+
+.div1 {
+    border: 2px solid red;
+    float: left;
+    padding: 10px;
+}
+
+.div2 {
+    padding: 10px;
+    border: 2px solid green;
+    height: 50px;
+}
+
+.clear-two {
+    position: relative;
+    width: 40%;
+    margin-top: 10px;
+}
+
+.div3 {
+    border: 3px solid red;
+    float:left;
+    padding: 10px;
+}
+
+.div4 {
+    padding: 10px;
+    border: 3px solid green;
+    clear: left;
+}
+
+.flexbox { display: flex;
+    list-style: none;
+    padding: 10px;
+    
+}
+
+

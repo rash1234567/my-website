@@ -1,0 +1,47 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: dodgerblue;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.first-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+   
+}
+
+.second-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+       
+}
+
+ .first-row > div {
+    border: 1px solid red;
+    color: black;
+    height: 100px;
+    width:100px;
+    background-color: white;
+    
+}
+
+.second-row > div {
+    border: 1px solid red;
+    color: black;
+    height: 100px;
+    width:100px;
+    background-color: white;
+}
+
